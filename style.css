@@ -90,7 +90,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 90%;
+    top: 75%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -104,4 +104,30 @@ fieldset.grupo .campo {
 
 .botao, select{
     cursor: pointer;
+}
+
+footer{
+    padding: 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: fixed;
+}
+
+.footer1{
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+   
 }
